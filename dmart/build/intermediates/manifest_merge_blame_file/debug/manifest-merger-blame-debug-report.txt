@@ -1,0 +1,509 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.co.dmart"
+4    android:versionCode="86"
+5    android:versionName="2.9.9.9.88" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml
+10
+11    <!--
+12        <uses-sdk
+13        android:minSdkVersion="14"
+14        android:targetSdkVersion="29" />
+15    -->
+16    <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+17    <!-- GCM 관련 퍼미션 -->
+18    <!--
+19  <permission android:name="kr.co.dmart.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+20  <uses-permission android:name="kr.co.dmart.permission.C2D_MESSAGE" />
+21  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22    -->
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:16:3-65
+23-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:16:20-62
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:17:3-77
+24-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:17:20-74
+25    <uses-permission
+25-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:18:3-100
+26        android:name="android.permission.READ_PHONE_STATE"
+26-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:18:20-70
+27        android:maxSdkVersion="29" />
+27-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:18:71-97
+28    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+28-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:19:3-69
+28-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:19:20-66
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:20:3-66
+29-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:20:20-63
+30    <uses-permission android:name="android.permission.GET_TASKS" />
+30-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:21:3-66
+30-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:21:20-63
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:22:3-63
+31-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:22:20-61
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:23:3-77
+32-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:23:20-74
+33    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+33-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:24:3-78
+33-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:24:20-76
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:25:3-62
+34-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:25:20-60
+35    <uses-permission android:name="android.permission.FLASHLIGHT" />
+35-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:26:3-66
+35-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:26:20-64
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:27:3-78
+36-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:27:20-76
+37    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+37-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:28:3-78
+37-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:28:20-76
+38    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+38-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:29:3-75
+38-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:29:20-72
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+39-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:26:5-110
+39-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:26:22-107
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+40-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+40-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+41    <uses-feature
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+42        android:name="android.hardware.camera"
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+43        android:required="false" />
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+44    <uses-feature
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+45        android:name="android.hardware.camera.front"
+45-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+46        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+47    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+49        android:name="android.hardware.camera.autofocus"
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+52        android:name="android.hardware.camera.flash"
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+53        android:required="false" />
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+54    <uses-feature
+54-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+55        android:name="android.hardware.screen.landscape"
+55-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+56        android:required="false" />
+56-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+57    <uses-feature
+57-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+58        android:name="android.hardware.wifi"
+58-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+59        android:required="false" />
+59-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+60
+61    <application
+61-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:32:5-178:19
+62        android:allowBackup="true"
+62-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:34:9-35
+63        android:debuggable="true"
+64        android:hardwareAccelerated="true"
+64-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:33:9-43
+65        android:icon="@drawable/ic_launcher"
+65-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:35:9-45
+66        android:label="로마켓"
+66-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:36:9-28
+67        android:testOnly="true"
+68        android:theme="@style/AppTheme"
+68-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:38:9-40
+69        android:usesCleartextTraffic="true" >
+69-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:37:3-38
+70        <activity
+70-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:39:9-56:20
+71            android:name="kr.co.dmart.MainActivity"
+71-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:40:13-52
+72            android:label="로마켓"
+72-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:41:13-32
+73            android:screenOrientation="portrait"
+73-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:42:13-49
+74            android:windowSoftInputMode="adjustResize" >
+74-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:43:13-55
+75            <intent-filter>
+75-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:45:13-48:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:46:17-69
+76-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:46:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:47:17-77
+78-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:47:27-74
+79            </intent-filter>
+80            <!-- 2020-11-11 -->
+81            <intent-filter>
+81-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:50:13-55:29
+82                <action android:name="android.intent.action.VIEW" />
+82-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:51:17-69
+82-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:51:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:17-75
+84-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:27-73
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:53:17-78
+85-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:53:27-75
+86
+87                <data
+87-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:54:17-75
+88                    android:host="romarket"
+88-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:54:23-46
+89                    android:scheme="romarket" />
+89-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:54:47-72
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:57:9-66:20
+93            android:name="kr.co.dmart.PushPopup"
+93-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:58:13-38
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+94-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:59:13-83
+95            <intent-filter>
+95-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:61:13-64:29
+96                <action android:name="kr.co.dmart.pushpopup" />
+96-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:62:14-61
+96-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:62:22-58
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:17-75
+98-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:27-73
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:68:9-76:20
+102            android:name="kr.co.dmart.ImgPopup"
+102-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:69:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+103-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:70:13-83
+104            <intent-filter>
+104-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:72:13-75:29
+105                <action android:name="kr.co.dmart.ImgPopup" />
+105-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:73:14-60
+105-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:73:22-57
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:17-75
+107-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:27-73
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:78:9-84:20
+111            android:name="kr.co.dmart.cart_activity"
+111-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:79:4-33
+112            android:screenOrientation="unspecified"
+112-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:80:13-52
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+113-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:81:13-83
+114            android:windowSoftInputMode="adjustResize" >
+114-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:82:13-55
+115        </activity>
+116        <activity
+116-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:86:9-92:20
+117            android:name="kr.co.dmart.goods_activity"
+117-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:87:4-34
+118            android:screenOrientation="unspecified"
+118-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:88:13-52
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+119-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:89:13-83
+120            android:windowSoftInputMode="adjustResize" >
+120-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:90:13-55
+121        </activity>
+122        <activity
+122-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:94:9-100:20
+123            android:name="kr.co.dmart.Mypage_activity"
+123-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:95:4-35
+124            android:screenOrientation="unspecified"
+124-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:96:13-52
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+125-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:97:13-83
+126            android:windowSoftInputMode="adjustResize" >
+126-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:98:13-55
+127        </activity>
+128        <activity
+128-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:102:9-108:20
+129            android:name="kr.co.dmart.etc_activity"
+129-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:103:4-32
+130            android:screenOrientation="unspecified"
+130-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:104:13-52
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+131-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:105:13-83
+132            android:windowSoftInputMode="adjustResize" >
+132-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:106:13-55
+133        </activity>
+134        <activity
+134-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:110:9-116:20
+135            android:name="kr.co.dmart.etc_sub_activity"
+135-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:111:4-36
+136            android:screenOrientation="unspecified"
+136-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:112:13-52
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+137-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:113:13-83
+138            android:windowSoftInputMode="adjustResize" >
+138-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:114:13-55
+139        </activity>
+140        <activity
+140-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:118:9-124:20
+141            android:name="kr.co.dmart.ZoomImg_activity"
+141-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:119:4-36
+142            android:configChanges="orientation|keyboardHidden"
+142-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:121:13-63
+143            android:screenOrientation="unspecified"
+143-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:120:13-52
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+144-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:122:13-83
+145        </activity>
+146        <activity
+146-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:126:9-131:11
+147            android:name="kr.co.dmart.SplashActivity"
+147-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:127:8-38
+148            android:configChanges="orientation|keyboardHidden"
+148-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:129:8-58
+149            android:screenOrientation="unspecified"
+149-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:128:8-47
+150            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+150-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:130:8-66
+151        <activity
+151-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:133:10-143:17
+152            android:name="kr.co.dmart.CaptureActivity"
+152-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:134:9-40
+153            android:configChanges="orientation|keyboardHidden"
+153-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:135:9-59
+154            android:screenOrientation="landscape"
+154-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:136:9-46
+155            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+155-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:137:9-67
+156            android:windowSoftInputMode="stateAlwaysHidden" >
+156-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:138:9-56
+157            <intent-filter>
+157-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:139:9-142:25
+158                <action android:name="com.google.zxing.client.android.SCAN" />
+158-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:140:13-75
+158-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:140:21-72
+159
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:17-75
+160-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:52:27-73
+161            </intent-filter>
+162        </activity>
+163
+164        <!-- FCM 메시지 수신 서비스 -->
+165        <service android:name="kr.co.dmart.FCMService" >
+165-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:146:5-150:15
+165-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:146:14-40
+166            <intent-filter>
+166-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:147:7-149:23
+167                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+167-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:148:11-72
+167-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:148:19-69
+168            </intent-filter>
+169        </service>
+170        <!-- FCM ID 수신 서비스 -->
+171        <service android:name="kr.co.dmart.GoBackgroundService" />
+171-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:152:9-55
+171-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:152:18-53
+172        <!-- FCM token 생성을 위해서 필요한 것 같습니다. -->
+173        <receiver
+173-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:154:5-161:17
+174            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+174-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:154:15-80
+175            android:exported="true"
+175-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:154:81-104
+176            android:permission="com.google.android.c2dm.permission.SEND" >
+176-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:155:7-67
+177            <intent-filter>
+177-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:156:13-160:29
+178                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+178-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:157:17-80
+178-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:157:25-78
+179                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+179-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:158:17-85
+179-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:158:25-83
+180
+181                <category android:name="com.testfcm" />
+181-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:159:17-55
+181-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:159:27-53
+182            </intent-filter>
+183            <intent-filter>
+183-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+184                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+184-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:157:17-80
+184-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:157:25-78
+185            </intent-filter>
+186        </receiver>
+187
+188        <provider
+188-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:163:5-167:36
+189            android:name="com.google.firebase.provider.FirebaseInitProvider"
+189-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:165:10-74
+190            android:authorities="kr.co.dmart.firebaseinitprovider"
+190-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:164:10-64
+191            android:exported="false"
+191-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:166:10-34
+192            android:initOrder="100" />
+192-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:167:10-33
+193
+194        <meta-data
+194-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:169:5-171:69
+195            android:name="com.google.android.gms.version"
+195-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:170:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:171:13-66
+197
+198        <service
+198-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:173:9-176:38
+199            android:name="kr.co.dmart.FcmNotificationService"
+199-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:174:13-51
+200            android:exported="true"
+200-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:176:13-36
+201            android:permission="android.permission.BIND_JOB_SERVICE" />
+201-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:175:13-69
+202
+203        <meta-data
+203-->[com.android.support:appcompat-v7:26.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/534d2cf270121d30767f680444c8b048/appcompat-v7-26.0.1/AndroidManifest.xml:26:9-28:38
+204            android:name="android.support.VERSION"
+204-->[com.android.support:appcompat-v7:26.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/534d2cf270121d30767f680444c8b048/appcompat-v7-26.0.1/AndroidManifest.xml:27:13-51
+205            android:value="26.0.1" />
+205-->[com.android.support:appcompat-v7:26.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/534d2cf270121d30767f680444c8b048/appcompat-v7-26.0.1/AndroidManifest.xml:28:13-35
+206        <!--
+207             FirebaseMessagingService performs security checks at runtime,
+208             no need for explicit permissions despite exported="true"
+209        -->
+210        <service
+210-->[com.google.firebase:firebase-messaging:17.3.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/ca16b0b1842dfae6c8af77efe35691a2/firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+211            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+211-->[com.google.firebase:firebase-messaging:17.3.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/ca16b0b1842dfae6c8af77efe35691a2/firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+212            android:exported="true" >
+212-->[com.google.firebase:firebase-messaging:17.3.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/ca16b0b1842dfae6c8af77efe35691a2/firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+213            <intent-filter android:priority="-500" >
+213-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:147:7-149:23
+214                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+214-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:148:11-72
+214-->/Users/romarket/workspace/android/dmart/dmart/src/main/AndroidManifest.xml:148:19-69
+215            </intent-filter>
+216        </service>
+217        <service
+217-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /Users/romarket/.gradle/caches/transforms-2/files-2.1/664704579cb929517212acac90a04e7a/firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:27:9-31:19
+218            android:name="com.google.firebase.components.ComponentDiscoveryService"
+218-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /Users/romarket/.gradle/caches/transforms-2/files-2.1/664704579cb929517212acac90a04e7a/firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:27:18-89
+219            android:exported="false" >
+219-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
+220            <meta-data
+220-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /Users/romarket/.gradle/caches/transforms-2/files-2.1/664704579cb929517212acac90a04e7a/firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:28:13-30:85
+221                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+221-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /Users/romarket/.gradle/caches/transforms-2/files-2.1/664704579cb929517212acac90a04e7a/firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:29:17-139
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-measurement-connector-impl:17.0.5] /Users/romarket/.gradle/caches/transforms-2/files-2.1/664704579cb929517212acac90a04e7a/firebase-measurement-connector-impl-17.0.5/AndroidManifest.xml:30:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+224                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+224-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+226        </service>
+227
+228        <receiver
+228-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:29:9-33:20
+229            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+229-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:30:13-85
+230            android:enabled="true"
+230-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:31:13-35
+231            android:exported="false" >
+231-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:32:13-37
+232        </receiver>
+233        <receiver
+233-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:34:9-42:20
+234            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+234-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:35:13-100
+235            android:enabled="true"
+235-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:36:13-35
+236            android:exported="true"
+236-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:37:13-36
+237            android:permission="android.permission.INSTALL_PACKAGES" >
+237-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:38:13-69
+238            <intent-filter>
+238-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:39:13-41:29
+239                <action android:name="com.android.vending.INSTALL_REFERRER" />
+239-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:40:17-79
+239-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:40:25-76
+240            </intent-filter>
+241        </receiver>
+242
+243        <service
+243-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:44:9-47:40
+244            android:name="com.google.android.gms.measurement.AppMeasurementService"
+244-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:45:13-84
+245            android:enabled="true"
+245-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:46:13-35
+246            android:exported="false" />
+246-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:47:13-37
+247        <service
+247-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:48:9-52:72
+248            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+248-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:49:13-87
+249            android:enabled="true"
+249-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:50:13-35
+250            android:exported="false"
+250-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:51:13-37
+251            android:permission="android.permission.BIND_JOB_SERVICE" />
+251-->[com.google.firebase:firebase-analytics:16.3.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e3a9b1137dc5f8124e9628374ee7c4d5/firebase-analytics-16.3.0/AndroidManifest.xml:52:13-69
+252        <!--
+253             FirebaseInstanceIdService performs security checks at runtime,
+254             no need for explicit permissions despite exported="true"
+255        -->
+256        <service
+256-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+257            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+257-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+258            android:exported="true" >
+258-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+259            <intent-filter android:priority="-500" >
+259-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+259-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+260                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+260-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+260-->[com.google.firebase:firebase-iid:17.0.4] /Users/romarket/.gradle/caches/transforms-2/files-2.1/e160ae5cbee410f3aeeab81ea25c6cd0/firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+261            </intent-filter>
+262        </service>
+263
+264        <activity
+264-->[com.google.android.gms:play-services-base:16.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/70c9d5a8f43b01bbb9074ddf865b50ce/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+265            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+265-->[com.google.android.gms:play-services-base:16.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/70c9d5a8f43b01bbb9074ddf865b50ce/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+266            android:exported="false"
+266-->[com.google.android.gms:play-services-base:16.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/70c9d5a8f43b01bbb9074ddf865b50ce/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+267            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+267-->[com.google.android.gms:play-services-base:16.0.1] /Users/romarket/.gradle/caches/transforms-2/files-2.1/70c9d5a8f43b01bbb9074ddf865b50ce/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+268        <activity
+268-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+269            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+269-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+270            android:clearTaskOnLaunch="true"
+270-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+271            android:screenOrientation="sensorLandscape"
+271-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+272            android:stateNotNeeded="true"
+272-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+273            android:theme="@style/zxing_CaptureTheme"
+273-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+274            android:windowSoftInputMode="stateAlwaysHidden" />
+274-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/romarket/.gradle/caches/transforms-2/files-2.1/1d56af2f49ceb5a9ae270a02cc482d57/zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+275    </application>
+276
+277</manifest>

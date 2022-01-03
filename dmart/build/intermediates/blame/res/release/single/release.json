@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_ic_launcher.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_blue_button.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/blue_button.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_line_hr.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/line_hr.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_logo_left.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/logo_left.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_in_right.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_left_top_radius_border.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/left_top_radius_border.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_out_right.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/menu_main.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_view_mart_default.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/view_mart_default.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_dmart_title_icon_40.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/dmart_title_icon_40.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_recyclerview_item.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/recyclerview_item.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_cart.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_cart.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_ready.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_ready.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_mypage_focus.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/mypage_focus.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_out_bottom.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_buttom_confirm.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/buttom_confirm.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_in_left.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_layout_border.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/layout_border.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable-hdpi_image_comming.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable-hdpi/image_comming.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_dialog_agree.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/dialog_agree.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/raw_beep45.mp3.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/raw/beep45.mp3"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_button_style.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/button_style.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_goods.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_goods.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_round_button_background.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/round_button_background.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_in_bottom.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_title_layout.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/title_layout.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_etc.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_etc.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_dmart_title_icon_white_40.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/dmart_title_icon_white_40.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_curve_shap_up.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/curve_shap_up.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_mypage_button.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/mypage_button.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_view_mart_focus.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/view_mart_focus.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_blue_button_comp.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/blue_button_comp.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_new_popup_top.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/new_popup_top.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_pattern_bg.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/pattern_bg.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_new_popup_bottom.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/new_popup_bottom.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_in_top.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_app2_connection.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/app2_connection.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_mypage_select.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/mypage_select.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_buttonshape.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/buttonshape.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_splashorg.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/splashorg.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_curve_shap.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/curve_shap.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_splashnew.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/splashnew.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_dmart_title_icon_30.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/dmart_title_icon_30.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_out_top.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_dmart_title_icon.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/dmart_title_icon.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_splash.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_go_back_icon.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/go_back_icon.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_icon_back.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/icon_back.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/raw_beep46.mp3.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/raw/beep46.mp3"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_blue_button_back.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/blue_button_back.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_new_popup_side.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/new_popup_side.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_new_popup_top_comp.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/new_popup_top_comp.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_mypage_main.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_mypage_main.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_img_popup_close.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/img_popup_close.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_list_item.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_popup.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_popup.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/anim_anim_slide_out_left.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/anim/anim_slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_etc_sub.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_etc_sub.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_title_bg_img.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/title_bg_img.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_title_bar_layout.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/title_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_mypage_default.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/mypage_default.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_dot_line.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/dot_line.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_buttom_cancel.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/buttom_cancel.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_zoom_img.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_zoom_img.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_imgpopup.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_imgpopup.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_view_mart_select.png.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/view_mart_select.png"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_view_mart_button.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/view_mart_button.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/drawable_curve_shap_down.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/drawable/curve_shap_down.xml"
+    },
+    {
+        "merged": "/Users/romarket/workspace/android/dmart/dmart/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/Users/romarket/workspace/android/dmart/dmart/src/main/res/layout/activity_main.xml"
+    }
+]

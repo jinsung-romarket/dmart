@@ -1,0 +1,4 @@
+#Mon Jan 03 14:57:45 KST 2022
+base.0=/Users/romarket/workspace/android/dmart/dmart/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,4 @@
+#Fri Jul 17 00:30:06 KST 2020
+base.0=C\:\\StudioProjects\\dmart\\dmart\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

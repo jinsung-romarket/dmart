@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "kr.co.dmart",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 86,
+        "versionName": "2.9.9.9.88",
+        "outputFile": "dmart-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "kr.co.dmart",
+        "split": "",
+        "minSdkVersion": "14"
+      }
+    }
+  ]
+}
